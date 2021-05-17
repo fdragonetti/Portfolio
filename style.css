@@ -1,0 +1,135 @@
+/* GENERALI */
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+}
+
+    body {
+        padding: 0;
+        margin: 0;
+        background-color: rgb(210, 222, 233);
+    }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+            h1  {
+                font-size: 50px;
+                text-transform: uppercase;
+                margin-bottom: 5px;
+                margin-top: 0px;
+                line-height: 1em;
+            }
+
+            h2  {
+                margin-top: 5px;
+            }
+
+/* NAVBAR */
+
+nav {
+    display: flex;
+}
+
+nav a   {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: rgb(210, 222, 233);
+    color: black;
+}
+
+.nav-items {
+    display: flex;
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.nav-item {
+    padding-right: 15px;
+}
+
+/* SEZIONE PRINCIPALE */
+
+#main-container  {
+    background-image: url(https://images.pexels.com/photos/921319/pexels-photo-921319.png);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    min-height: 500px;
+    margin-bottom: 35px;
+    padding: 20px;
+}
+
+    .intro-container  {
+        display: flex;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+
+        .intro-container-text {
+            flex-basis: 700px;
+            padding-right: 20px;
+        }
+
+        .intro-container-photo {
+            flex-basis: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+            .portrait {
+                border: solid white 10px;
+                max-width: 90%;
+                max-height: 90%;
+                border-radius: 50%;
+            }
+
+/* SEZIONE SECONDARIA */
+
+#content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    padding: 20px;
+    padding-bottom: 0px !important;
+}
+
+    .bio-container {
+        flex: 1 200px;
+        padding-right: 20px;
+    }
+
+    .skills-container {
+        flex: 2 300px;
+    }
+
+/* SEZIONE FINALE */
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        /* padding-top: 0px !important; */
+    }
+
+    .footer-container {
+        max-width: 1000px;
+    }
